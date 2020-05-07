@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<style>
+table, th, td {
+   border: 1px solid rgb(171,185,169);
+  border-collapse: collapse;
+}
+	</style>
+	<h1 align="center" style="color: rgb(74,97,182);">Đăng ký du lịch</h1>
+	<table align="center" style="background-color: rgb(254,251,181); color: rgb(147,167,135) ">
+		<tr>
+			<td>Họ và tên</td>
+			<td><input type="text" value="Phạm Ngọc Cẩm Đào"></td>
+		</tr>
+		<tr>
+			<td>Địa chỉ </td>
+			<td><input type="text" value="227 Nguyễn Văn Cừ"></td>
+		</tr>
+		<tr>
+			<td>Điện thoại </td>
+			<td><input type="text" value="8351056"></td>
+		</tr>
+		<tr>
+			<td>Khách Việt Nam </td>
+			<td><input type="checkbox"></td>
+		</tr>
+		<tr>
+			<td>Chọn tour</td>
+			<td><select name="chọntuor">
+					<option value="Buôn Mê Thuột">Buôn Ma Thuật</option>
+					<option value="Gia Lai">Gia Lai</option>
+					<option value="Kontum">Buôn Ma Thuật</option>	
+				</select> 
+		</td>
+		</tr>		
+		<tr>
+			<td>Phương tiện </td>
+			<td>
+				<form >
+					<input type="radio" value="Máy bay">
+					<label for="xemay">Máy bay</label>
+					<input type="radio" value="oto">
+					<label for="oto">Ôtô </label>
+				</form>	
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="color: rgb(140,113,76);"><fieldset>
+  					<legend>Số lượng đoàn khách</legend>
+  					<p><span style="color: rgb(147,167,135)">Nguời lớn </span> <input type="text" value="6"> <span style="color: rgb(147,167,135)">Trẻ em </span>  <input type="text" value="4"></p>
+				</fieldset>
+			</td>
+		<tr>	
+			<td>Ghi chú thêm</td>
+			<td>
+				<select name="ghichu">
+					<option value="có 2 trẻ em dưới 6 tuổi"> có 2 trẻ em dưới 6 tuổi</option>
+					<option value="có 2 người ăn chay "> có 2 người ăn chay </option>					
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><button type="button" style="background-color: rgb(199,195,185);">Đồng ý </button></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center" style="color: red">Bạn đã đăng ký thành công !!!</td>
+		</tr>
+	</table>
+
+</body>
+</html>
