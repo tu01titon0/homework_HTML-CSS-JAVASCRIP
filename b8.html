@@ -5,13 +5,32 @@
 </head>
 <body>
 	<style>
-table, th, td {
-   border: 1px solid rgb(171,185,169);
-  border-collapse: collapse;
-}
+		table, th, td {
+   			border: 1px solid rgb(171,185,169);
+  			border-collapse: collapse;
+		} 
+	  	h1{
+  			color: rgb(74,97,182);
+  		}	
+  		table{
+  			background-color: rgb(254,251,181);
+  			color: rgb(147,167,135); 
+  		}
+  		.text_boder{
+  			color: rgb(140,113,76);
+  		}
+  		.soluong{
+  			color: rgb(147,167,135)
+  		}
+  		button{
+  			background-color: rgb(199,195,185);
+  		}
+  		.text_end{
+  			color: red;
+  		}
 	</style>
-	<h1 align="center" style="color: rgb(74,97,182);">Đăng ký du lịch</h1>
-	<table align="center" style="background-color: rgb(254,251,181); color: rgb(147,167,135) ">
+	<h1 align="center">Đăng ký du lịch</h1>
+	<table align="center">
 		<tr>
 			<td>Họ và tên</td>
 			<td><input type="text" value="Phạm Ngọc Cẩm Đào"></td>
@@ -49,9 +68,9 @@ table, th, td {
 			</td>
 		</tr>
 		<tr>
-			<td colspan="2" style="color: rgb(140,113,76);"><fieldset>
+			<td colspan="2" class="text_boder" style=""><fieldset>
   					<legend>Số lượng đoàn khách</legend>
-  					<p><span style="color: rgb(147,167,135)">Nguời lớn </span> <input type="text" value="6"> <span style="color: rgb(147,167,135)">Trẻ em </span>  <input type="text" value="4"></p>
+  					<p><span class="soluong">Nguời lớn </span> <input type="text" value="6"> <span class="soluong">Trẻ em </span>  <input type="text" value="4"></p>
 				</fieldset>
 			</td>
 		<tr>	
@@ -64,10 +83,10 @@ table, th, td {
 			</td>
 		</tr>
 		<tr>
-			<td colspan="2" align="center"><button type="button" style="background-color: rgb(199,195,185);">Đồng ý </button></td>
+			<td colspan="2" align="center"><button type="button">Đồng ý </button></td>
 		</tr>
 		<tr>
-			<td colspan="2" align="center" style="color: red">Bạn đã đăng ký thành công !!!</td>
+			<td colspan="2" align="center" class="text_end">Bạn đã đăng ký thành công !!!</td>
 		</tr>
 	</table>
 
